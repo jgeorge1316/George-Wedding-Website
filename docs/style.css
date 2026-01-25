@@ -140,71 +140,39 @@ text-align:left;
 display:flex;
 
 }
-div.images2{
+div.engagement{
+display: flex;
 border-style:solid;
-border-radius:15px;
+border: radius 15px;
 border-color:black;
 border-width:thick;
-background:white;
+background:#45749D;
 color:black;
-width: 85%;
 margin:auto;
 text-align:left;
-display:flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 1rem; 
+}
+figure.engagement img{
+max-width: 400px;  
+width:75%;
+border-style:solid;
+border: radius 15px;
+border-color:black;
+border-width:thick;
+background:#45749D;
+color:black;
+margin:auto;
+text-align:left;
 flex-wrap: wrap;
 }
-figure.dylanpic {flex:1;}
-figure.dylanpic img{
-max-width: 300px;  
-width:70%
-}
 
-img.format{ width:70%; }
 
-img#img1{
- border-style:solid;
-border-color:violet;
-border-radius:15px;
-border-width:15px;
-text-align:left
+  
 
-}
-img#img2{
-border-style:solid;
-border-color:yellow;
-border-radius:15px;
-border-width:15px;   
-}
-img#img3{
-border-style:solid;
-border-color:black;
-border-radius:15px;
-border-width:15px;    
-}
-img#img4{
-border-style:solid;
-border-color:blue;
-border-radius:15px;
-border-width:15px;      
-}
-img#img5{
-border-style:solid;
-border-color:brown;
-border-radius:15px;
-border-width:15px;    
-}
-img#img6{
-border-style:solid;
-border-color:green;
-border-radius:15px;
-border-width:15px;      
-}
-img#donut{
-width:35%    
-}
-img#inst{
-width:55%    
-}
+
+
 footer{
 border-style:solid;
 border-color:black;
