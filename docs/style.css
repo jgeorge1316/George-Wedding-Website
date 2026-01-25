@@ -143,7 +143,7 @@ display:flex;
 div.engagement{
 display: flex;
 border-style:solid;
-border: radius 15px;
+border-radius: 15px;
 border-color:black;
 border-width:thick;
 background:#45749D;
@@ -153,19 +153,25 @@ text-align:left;
 flex-wrap: wrap;
 justify-content: center;
 gap: 1rem; 
+padding: 1rem;            /* <--- adds space inside the border */
+align-items: center
 }
-figure.engagement img{
-max-width: 400px;  
-width:75%;
-border-style:solid;
-border: radius 15px;
-border-color:black;
-border-width:thick;
-background:#45749D;
-color:black;
-margin:auto;
-text-align:left;
-flex-wrap: wrap;
+figure.engagement {
+  flex: 0 1 300px;   /* default width */
+  margin: 0;
+  margin: 0.5rem;    /* <--- adds spacing around each figure */
+
+}
+figure.engagement.wide {
+  flex: 0 1 500px;   /* wider image */
+}
+figure.engagement img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  border: solid thick lightslategray;
+  border-radius: 15px;
 }
 
 
@@ -178,7 +184,7 @@ border-style:solid;
 border-color:black;
 border-width:thick;
 border-radius:15px;
-background:#CF9FFF;
+background:white;
 color:black;
 width:90%;
 margin:auto;
