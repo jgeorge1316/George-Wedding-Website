@@ -1,9 +1,9 @@
-body {font-family:Georgia,serif;
+body {font-family:serif;
 }
 
 body.index, body.viz{
-background:#1E90FF; 
-font-family:Georgia,serif;
+background:#eeeae5; 
+font-family:serif;
 font-size:larger;
 color:black;
 }
@@ -63,11 +63,45 @@ section.sub {
     margin:auto;
 }
 h1{
-font-size:2em;
+font-size:3em;
 text-align:center;
 /*border-style:solid;
 border-color:white;*/
 
+}
+
+.bold-subheader {
+  text-align: center;
+  font-family: serif; /* or your site font */
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #333;
+}
+
+.italic-subheader {
+  text-align: center;
+  font-family: serif; /* or your site font */
+  font-style:italic;
+  color: #333;
+}
+
+.countdown-container {
+  text-align: center;
+  font-family: serif; /* or your site font */
+  color: #333;
+}
+
+.countdown-date {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.countdown-days {
+  font-size: 22px;
+  letter-spacing: 3px;
+  font-weight: 500;
 }
 h2{
 /*border-style:solid;
@@ -75,6 +109,15 @@ border-color:white;
 border-width:thick;
 width:12%;
 height:100%*/
+text-align:center;
+font-size:2em;
+font-weight: lighter;
+}
+p1{
+font-size:1em;
+text-align:center;
+/*border-style:solid;
+border-color:white;*/
 }
 iframe.timeline{
 width:100%;
