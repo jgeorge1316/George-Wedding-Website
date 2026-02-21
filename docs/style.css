@@ -134,12 +134,20 @@ border-color:white;*/
   letter-spacing: 3px;
   font-weight: 500;
 }
+
+.question {
+    font-weight: bold;
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.answer {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    text-align: center;
+}
 h2{
-/*border-style:solid;
-border-color:white;
-border-width:thick;
-width:12%;
-height:100%*/
 text-align:center;
 font-size:2em;
 font-weight: medium;
