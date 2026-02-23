@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Home</title>
-        <link rel="stylesheet" href="style.css" />
-         <nav class="nav"><a href="index.html">Home</a>|<a href="photos.html">Photos</a>|<a
-                href="QandA.html">Q & A</a>|
-            <a href="travel.html">Travel</a>|<a href="https://www.amazon.com/wedding/guest-view/37JRAXEND5YH2" target="_blank" >Registry</a>
-        </nav>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    </head>
-    <body class="index"> 
-    <h1> Airport Options</h1>  
-    <li>
-    <ul>Erie Airport - 25 minutes from the ceremony</ul>
-    <ul>Buffalo Airport - 1 hr and 30 minutes from the ceremony</ul>
-    <ul>Pittsburgh Airport - About 2 hrs from the ceremony</ul>
-    </li>
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body class="index">
+
+  <nav class="nav">
+    <a href="index.html">Home</a> |
+    <a href="photos.html">Photos</a> |
+    <a href="QandA.html">Q & A</a> |
+    <a href="travel.html">Travel</a> |
+    <a href="https://www.amazon.com/wedding/guest-view/37JRAXEND5YH2" target="_blank">Registry</a>
+  </nav>
+
+  <section class="answer">
+    <h1>Travel Info</h1>
+
+    <h2>Airports:</h2>
+    <ul class="travel_list">
+      <li>Erie Airport - 25 minutes from the ceremony</li><br>
+      <li>Buffalo Airport - 1 hr and 30 minutes from the ceremony</li><br>
+      <li>Pittsburgh Airport - About 2 hrs from the ceremony</li><br>
+    </ul>
+
     <h2>Recommended Hotels</h2>
-    <li>
-        <ul>Cobblestone Hotel & Suites - 9 minutes from ceremony</ul>
-    <ul>Hampton Inn - 11 minutes from ceremony</ul>
-    <ul>Wingate by Windham - 12 minutes from ceremony </ul>
-    </li>
-     <h3>Tourist Recommendations</h3> 
-     <p>Here are some places in \erie you should visit while you're here </p>
-     <figure>
-    <div class="imsges1">
-     <img src="images/bicentenial tower.JPG" width="300" height="450"/>
-     <figcaption>Bicentennial Tower - Come see where we got engaged!</figcaption>
-     </figure>
-     <figure>
-    <img src="images/Presque Isle.jpg" width="400" height="250" />
-    <figcaption> Presque Isle State Park - 301 Peninsula Dr, Erie, PA 16505</figcaption>
-     </figure>   
-     <figure>
-     <img src="images/Saras.png" width="500" height="335"/>
-     <figcaption>Sara's - 25 Peninsula Dr, Erie, PA 16505</figcaption>
-     </figure>
-    
-    
-    </body>
+    <ul class="travel_list">
+        <li>
+            <a href="https://www.hilton.com/en/hotels/erihhhx-hampton-erie-south/" target="_blank">
+                Hampton Inn 
+            </a>
+            - 11 minutes from ceremony
+        </li><br>
+        <li>
+            <a href="https://staycobblestone.com/pa/erie/" target="_blank">
+                Cobblestone Hotel & Suites
+            </a>
+            - 9 minutes from ceremony
+        </li><br>
+        <li>
+            <a href="https://www.wyndhamhotels.com/wingate/erie-pennsylvania/wingate-by-wyndham-erie/overview" target="_blank">
+                Wingate by Windham 
+            </a>
+             - 12 minutes from ceremony
+        </li><br>
+    </ul>
+
+    <h2>Places to visit in Erie!</h2>
+
+    <!-- Border ONLY around images now -->
+    <div class="travel_places">
+      <figure class="place">
+        <figcaption>Bicentennial Tower - Come see where we got engaged!</figcaption>
+        <img src="images/bicentenial tower.JPG" alt="Bicentennial Tower">
+      </figure>
+
+      <figure class="place wide">
+        <figcaption>Presque Isle State Park - 301 Peninsula Dr, Erie, PA 16505</figcaption>
+        <img src="images/Presque Isle.jpg" alt="Presque Isle State Park">
+      </figure>
+
+      <figure class="place wide">
+        <figcaption>Sara's - 25 Peninsula Dr, Erie, PA 16505</figcaption>
+        <img src="images/Saras.png" alt="Sara's">
+      </figure>
+    </div>
+
+  </section>
+</body>
 </html>

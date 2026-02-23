@@ -166,19 +166,6 @@ iframe.kumu{
 width:100%;
 height:500px   
 }
-div.images1{
-border-style:solid;
-border-color:black;
-border-width:thick;
-background:white;
-width: 85%;
-
-margin:0;
-padding:0;
-text-align:left;
-display:flex;
-
-}
 div.engagement{
 display: flex;
 border-style:solid;
@@ -199,7 +186,13 @@ figure.engagement {
   flex: 0 1 300px;   /* default width */
   margin: 0;
   margin: 0.5rem;    /* <--- adds spacing around each figure */
-
+  border: solid thick lightslategray;
+  border-radius: 15px;
+  overflow: hidden;                     /* keeps image corners rounded */
+}
+figure.engagement figcaption {
+  margin-top: 0.5rem;
+  font-size: 1rem;
 }
 figure.engagement.wide {
   flex: 0 1 500px;   /* wider image */
@@ -208,13 +201,68 @@ figure.engagement img {
   width: 100%;
   height: auto;
   display: block;
-
-  border: solid thick lightslategray;
-  border-radius: 15px;
 }
 
 
-  
+/* Highly recommended global fix for "100% + border" overflow issues */
+*, *::before, *::after { box-sizing: border-box; }
+
+.travel_list{
+  list-style: none;     /* remove bullets */
+  padding: 0;           /* remove left indent */
+  margin: 0 0 1.25rem;  /* spacing after list */
+  text-align: center;   /* keep list lines centered */
+}
+.travel_list a {
+  text-decoration: none;
+  color: darkslateblue;
+  font-weight: bold;
+}
+
+.travel_list a:hover {
+  text-decoration: underline;
+}
+
+div.travel_places{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+  padding: 1rem;
+
+  border: thick solid black;
+  border-radius: 15px;
+
+  background: #D5D7E0;
+  color: black;
+  margin: 0 auto;
+}
+
+figure.place{
+  flex: 0 1 300px;
+  margin: 0;
+}
+
+figure.place.wide{
+  flex: 0 1 500px;
+}
+
+figure.place figcaption{
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+figure.place img{
+  width: 100%;
+  height: auto;
+  display: block;
+
+  border: thick solid darkblue;
+  border-radius: 15px;
+}
 
 
 
